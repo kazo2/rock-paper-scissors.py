@@ -31,7 +31,7 @@ def game():
                 print("Well played, looks like you won.")
             else:
                 print("Rats! It's a tie.")
-        time.sleep(1)
+        time.sleep(3)
         print('That was fun! Wanna play again?\nY/N')
         playAgain = input()
         if playAgain.lower() in ('y','yes','sure'):
